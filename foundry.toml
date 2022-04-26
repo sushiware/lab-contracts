@@ -2,5 +2,10 @@
 src = 'src'
 out = 'out'
 libs = ['lib']
+solc_version = '0.8.13'
+fuzz_runs = 256
+fuzz_max_local_rejects = 65536
+fuzz_max_global_rejects = 1024
+gas_reports = ["*"]
 
 # See more config options https://github.com/gakonst/foundry/tree/master/config
